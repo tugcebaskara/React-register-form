@@ -57,7 +57,7 @@ class AddContact extends React.Component {
             <form>
               <input
                 type="text"
-                name="Surname"
+                name="Soyad"
                 placeholder=" Add Surname"
                 value={this.state.surname}
                 onChange={(e) => this.setState({ surname: e.target.value })}
